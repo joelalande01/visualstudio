@@ -1,6 +1,6 @@
 /* set up colour palette and fonts using variable */
 :root  {
-   primary: #ffffff;
+ --primary: #ffffff;
  --secondary:#ed923c;
  --tertiary: #d8flee;
  --page: #ffffff;
