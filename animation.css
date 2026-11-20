@@ -1,6 +1,6 @@
 .spinme  {
   animation: ritate-center linear 8s 2;
-  display: inline-bline;
+   display: inline-block;
  }
 
  @keyframes rotate-center { 
@@ -14,24 +14,23 @@
 
 .bounceme { 
   animation: bounce ease 2s 3;
-  display: inline-block;  
+   display: inline-block;  
  }
 
  @keyframes bounce { 
   0% { 
-  transform: scale(1, 1) translatey (0);
+  transform: scale(1, 1) translateY() (0);
  }
  10% { 
-  transform: scale(1.1, 0,9) translatey (0);
+  transform: scale(1.1, 0,9) translateY() (0);
  }
  30%{ 
-  transform: scale(1, 1) translatey (-6rem);
+  transform: scale(1, 1) translateY() (-6rem);
  }
  50%{ 
-   transform: scale(1, 1) translaty(0);   
+   transform: scale(1, 1) translateY(0);   
+   }
  }
- }
-
 
  .scaleme { 
    animation: scale ease 2s infinite;
@@ -55,9 +54,10 @@
   transform: scale(1, 1);
     }
  }
+
  .rollmeleft { 
    animation: rollleft ease 8s l;
-   display: inline-block;
+    display: inline-block;
  }
 
  @keyframes rollleft { 
@@ -73,7 +73,7 @@
  }
 
  .rollmeright { 
-   animation: rollringt easev8s 1;
+   animation: rollright ease 8s 1;
    display: inline-block;
  }
 
